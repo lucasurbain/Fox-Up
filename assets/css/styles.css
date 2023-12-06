@@ -275,6 +275,7 @@
         font-weight: var(--font-medium);
         transition: .4s;
         opacity: 0;
+        display: none;
     }
     
     .nav__logo:hover {
@@ -1507,6 +1508,7 @@
 
         .nav__logo {
             opacity: 1;
+            display: block;
         }
     }
     
