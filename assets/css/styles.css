@@ -176,6 +176,10 @@
         font-weight: 300;
         color: #403A3A;
     }
+    .purple {
+        color: #51213E;
+        font-weight: 700;
+    }
     
     .details-text {
         margin-bottom: 40px;
@@ -621,6 +625,20 @@
         border-radius: 1.5rem;
         justify-self: center;
     }
+
+    .about__img.display-mobile {
+        display: block;
+        opacity: 1;
+    }
+
+    .about__img.hide-mobile {
+        display: none;
+        opacity: 0;
+    }
+
+    .border-corner {
+        border-radius: 0 80px 0 80px;
+    }
     
     .about__data {
         text-align: center;
@@ -662,6 +680,10 @@
     .about__box:hover {
         transform: translateY(-10px);
         box-shadow: 0 4px 10px hsl(var(--second-hue), 48%, 8%, .2);
+    }
+
+    .space-top {
+        margin-top: 50px;
     }
     /*=============== SKILLS ===============*/
     
@@ -1443,6 +1465,21 @@
         .about__img {
             width: 750px;
         }
+
+        .about__img.display-mobile {
+            display: none;
+            opacity: 0;
+        }
+
+        .about__img.hide-mobile {
+            display: block;
+            opacity: 1;
+        }
+
+        .space-top {
+            margin-top: 150px;
+        }
+        
         .about__data {
             text-align: initial;
         }
