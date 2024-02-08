@@ -145,8 +145,8 @@ window.addEventListener('scroll', scrollTop)
 
 /*=============== GET VERSION ===============*/
 function getVersion() {
-    var version = "2023.1.1";
-    var copyright = " | Copyright &#169; 2023 Fox'Up | All Rigths Reserved.";
+    var version = "2024.5.2";
+    var copyright = " | Copyright &#169; 2024 Fox'Up | All Rigths Reserved.";
 
     var language = document.getElementsByClassName("footer__copy");
 
